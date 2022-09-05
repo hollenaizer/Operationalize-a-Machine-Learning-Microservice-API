@@ -4,22 +4,87 @@
 
 ## devops_microservices
 
-In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
+### Project Task
 
-You are given a pre-trained, `sklearn` model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on [the data source site](https://www.kaggle.com/c/boston-housing). This project tests your ability to operationalize a Python flask app—in a provided file, `app.py`—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
+The project goal is to operationalize a pre-built SKLearn Machine Learning Microservice Application using Kubernetes (K8s), which is an open-source system for automating deployment, scaling, and management of containerized applications by doing the following
 
-### Project Tasks
+Kubernetes is open source which gives you the freedom to take advantage of on-premises, hybrid, or public cloud infrastructure, letting you effortlessly and seamlessly move workloads to where it matters to you.
 
-Your project goal is to operationalize this working, machine learning microservice using [kubernetes](https://kubernetes.io/), which is an open-source system for automating the management of containerized applications. In this project you will:
-* Test your project code using linting
-* Complete a Dockerfile to containerize this application
-* Deploy your containerized application using Docker and make a prediction
-* Improve the log statements in the source code for this application
-* Configure Kubernetes and create a Kubernetes cluster
-* Deploy a container using Kubernetes and make a prediction
-* Upload a complete Github repo with CircleCI to indicate that your code has been tested
+Test project code using hadolint
 
-You can find a detailed [project rubric, here](https://review.udacity.com/#!/rubrics/2576/view).
+Install softwares using the Make file
+
+Setup and create a Dockerfile to containerize this application
+
+Build and Deploy the containerized application using Docker and make a prediction
+
+Improve the log statements in the source code for the application
+
+Setup Kubernetes and minikube to create a Kubernetes cluster
+
+Deploy the containerize app to Kubernetes cluster and make a prediction
+
+Github repository
+
+Use CircleCI as a CICD tool
+
+Technology dependencies used for the deployment, automaton and integration process are below
+
+This dependencies resides in the requirements.txt file but we have name a few below
+
+python 3.7
+
+pip
+
+Flask
+
+pytest
+
+PyLint
+
+Docker
+
+Kubernetes
+
+CircleCI
+
+Setup the Environment
+
+• Create a virtualenv and activate it
+
+• Run make install to install the necessary dependencies
+
+Running app.py
+
+Standalone: python app.py
+
+Run in Docker: ./run_docker.sh
+
+Run in Kubernetes: ./run_kubernetes.sh
+
+Kubernetes Steps
+
+• Register a docker hub account
+
+• Setup and Configure Docker locally
+
+• Setup and Configure Kubernetes locally
+
+• Setup minikube to connect to Kubernetes. This is focusing on running kubectl locally
+
+• Create Flask app in Container
+
+• Run via kubectl
+
+• Upload docker to docker hub
+
+Verify the application is running
+
+Application listens on port 8000
+
+Testing
+
+This project uses pytest
 
 **The final implementation of the project will showcase your abilities to operationalize production microservices.**
 
@@ -50,3 +115,7 @@ source .devops/bin/activate
 * Setup and Configure Kubernetes locally
 * Create Flask app in Container
 * Run via kubectl
+
+### Author
+
+Casswell Maswanganye
