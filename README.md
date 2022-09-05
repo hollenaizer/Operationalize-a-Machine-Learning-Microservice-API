@@ -48,7 +48,7 @@ Kubernetes
 
 CircleCI
 
-Setup the Environment
+**Setup the Environment**
 
 • Create a virtualenv and activate it
 
@@ -86,7 +86,7 @@ Testing
 
 This project uses pytest
 
-**The final implementation of the project will showcase your abilities to operationalize production microservices.**
+**The final implementation of the project will showcase abilities to operationalize production microservices.**
 
 ---
 
