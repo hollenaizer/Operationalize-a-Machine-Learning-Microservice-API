@@ -1,6 +1,8 @@
+# A Simple Machine Learning Application
+
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/hollenaizer/Operationalize-a-Machine-Learning-Microservice-API/tree/main.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/hollenaizer/Operationalize-a-Machine-Learning-Microservice-API/tree/main)
 
-## Project Overview
+## devops_microservices
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API. 
 
